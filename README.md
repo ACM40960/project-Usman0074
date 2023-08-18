@@ -40,13 +40,13 @@ Our predictive model employs a multi-step approach:
    Key features are engineered, including team form, shot accuracy, defensive performance, chances created, and booking points. These features offer critical insights into team dynamics.
 We also check how these features affect the possibility of a team scoring goals.
 
-<img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with home goals.png" width="600" height="450">
-<img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with away goals.png" width="600" height="450">
+<img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Correlation of features with home goals.png" width="600" height="450">
+<img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Correlation of features with away goals.png" width="600" height="450">
 
 We also check how the home and away goals scored in the Premier League are distributed, and since it's a count, we model it against the Poisson distribution.
 
-<img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Home Goal Distribution.png" width="600" height="450">
-<img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Away Goal Distribution.png" width="600" height="450">
+<img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Home Goal Distribution.png" width="600" height="450">
+<img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Away Goal Distribution.png" width="600" height="450">
 
 
 3. **Poisson Regression:**
@@ -81,8 +81,8 @@ We also check how the home and away goals scored in the Premier League are distr
 
    The simulation results provide probabilities for different outcome scenarios (home win, draw, away win). These probabilities are compared with actual betting odds and we also compared the actual premier league table to the Monte Carlo simulated table for the 2022-23 season. We have provided the points comparison between the two as well.
 
-   <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Points Comparison.png" width="600" height="450">
-   <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Probabilities Comparison.png" width="600" height="450">
+   <img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Points Comparison.png" width="600" height="450">
+   <img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Probabilities Comparison.png" width="600" height="450">
 
 
 
@@ -93,5 +93,17 @@ We also check how the home and away goals scored in the Premier League are distr
 
 - **WhoScored:** Defensive ratings for teams are obtained from [WhoScored](https://www.whoscored.com/) and are included in the `Defending_Prem.xlsx` file.
 
-   
+
+## Conclusion
+
+In the future, better algorithms could be used to model the goals scored. We can further enhance the model by including the derby results of previous matches and the stadium they were played in. Key information such as team tactics, player availability, and players’ form can be introduced in the model to enhance the simulation result.
+
+
+## Authors
+
+This work has been carried out by:
+- **Usman Zahoor**
+- **Tejaswi Singh Chauhan**
+
+
   
