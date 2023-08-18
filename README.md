@@ -49,4 +49,30 @@ We also check how the home and away goals scored in the Premier League are distr
 <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Away Goal Distribution.png" width="600" height="450">
 
 
+3. **Poisson Regression:**
 
+  Utilizing the gathered data and engineered features, a Poisson regression model is constructed. This model integrates various parameters to predict the expected goal counts for both home and away teams.
+
+   - **Training Data:**
+
+ The Poisson regression model is trained using historical data from the 2016–2022 seasons. Fixtures from this period are used as training data to establish the model's parameters.
+
+```python
+ poisson_model_home = sm.GLM(Y_trainH, X_train_with_intercept, family=sm.families.Poisson()).fit()
+ poisson_model_away = sm.GLM(Y_trainA, X_train_with_intercept, family=sm.families.Poisson()).fit()
+```
+
+- **Prediction for 2023:**
+
+     The trained model is then employed to predict outcomes for fixtures from the 2023 season, producing lambda values for home and away goals scored.
+  
+```python
+ predicted_goals_home = poisson_model_home.predict(X_test_with_intercept)
+ predicted_goals_away = poisson_model_away.predict(X_test_with_intercept)
+```
+
+
+4. **Monte Carlo Simulation:**
+
+   Once the expected goal counts are determined, a Monte Carlo simulation is implemented. This simulation introduces randomness and captures the inherent uncertainty in football matches. It generates a range of potential match outcomes and their corresponding probabilities.
+  
