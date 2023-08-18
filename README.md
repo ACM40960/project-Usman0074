@@ -75,4 +75,13 @@ We also check how the home and away goals scored in the Premier League are distr
 4. **Monte Carlo Simulation:**
 
    Once the expected goal counts are determined, a Monte Carlo simulation is implemented. This simulation introduces randomness and captures the inherent uncertainty in football matches. It generates a range of potential match outcomes and their corresponding probabilities.
+   
+
+6. **Prediction and Evaluation:**
+
+   The simulation results provide probabilities for different outcome scenarios (home win, draw, away win). These probabilities are compared with actual betting odds and we also compared the actual premier league table to the Monte Carlo simulated table for the 2022-23 season. We have provided the points comparison between the two as well.
+
+   <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Points Comparison.png" width="600" height="450">
+   <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Probabilities Comparison.png" width="600" height="450">
+   
   
