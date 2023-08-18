@@ -43,4 +43,10 @@ We also check how these features affect the possibility of a team scoring goals.
 <img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with home goals.png">
 <img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with away goals.png">
 
+We also check how the home and away goals scored in the Premier League are distributed, and since it's a count, we model it against the Poisson distribution.
+
+<img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Home Goal Distribution.png">
+<img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Away Goal Distribution.png">
+
+
 
