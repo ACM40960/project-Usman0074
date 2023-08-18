@@ -29,3 +29,8 @@ from scipy.stats import poisson
 ## Methodology
 
 Our predictive model employs a multi-step approach:
+
+1. **Data Collection and Preprocessing:**
+
+   Historical Premier League data is compiled from a variety of sources. Match statistics such as match fixtures, results, goals, shots, corners, cards received, and Bet365 probabilities are retrieved from https://www.football-data.co.uk/. Defensive ratings for teams are derived from WhoScored (https://www.whoscored.com/) and are available in the provided 'Defending_Prem.xlsx' file.
+
