@@ -83,5 +83,15 @@ We also check how the home and away goals scored in the Premier League are distr
 
    <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Points Comparison.png" width="600" height="450">
    <img align="center" src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Probabilities Comparison.png" width="600" height="450">
+
+
+
+
+## Data Sources
+
+- **Football-Data:** Historical Premier League data, including match fixtures, results, goals, shots, corners, and cards, is sourced from [Football-Data](https://www.football-data.co.uk/mmz4281/).
+
+- **WhoScored:** Defensive ratings for teams are obtained from [WhoScored](https://www.whoscored.com/) and are included in the `Defending_Prem.xlsx` file.
+
    
   
