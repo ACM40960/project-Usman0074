@@ -84,7 +84,9 @@ We also check how the home and away goals scored in the Premier League are distr
    <img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Points Comparison.png" width="600" height="450">
    <img align="center" src="https://github.com/ACM40960/project-Usman22201517/blob/main/Images/Probabilities Comparison.png" width="600" height="450">
 
+7. **Further Simulation for 2024 season**
 
+   We have used the average home and away goals scored in the predicted table of 2023 season as lambda to simulate the fixtures of 2024 season and predicted the final league table. All the league tables have been provided in the **Images** folder. 
 
 
 ## Data Sources
@@ -104,6 +106,16 @@ In the future, better algorithms could be used to model the goals scored. We can
 This work has been carried out by:
 - **Usman Zahoor**
 - **Tejaswi Singh Chauhan**
+
+
+## REFERENCES
+[1](https://doi.org/10.1016/j.ijforecast.2018.01.003)Rahul Baboota, Harleen Kaur(2019). Predictive analysis and modelling football results using machine learning approach for English Premier League(PDF).Journal of Forecasting, Volume 35, Issue 2, 2019
+
+[2](https://doi.org/10.1016/j.ijforecast.2016.11.006) Georgi Boshnakov, Tarak Kharrat, Ian G. McHale (2017). A bivariate Weibull count model for forecasting association football scores(PDF). International Journal of Forecasting, Volume 33, Issue 2, 2017.
+
+[3](https://medium.com/swlh/predicting-the-outcome-of-the-english-premier-league-by-using-monte-carlo-method-in-r-638fbc90fd37)Menyhert Kristof (2021). Predicting the Outcome of the English Premier League By Using Monte Carlo Method (in R). 
+
+
 
 
   
