@@ -9,4 +9,4 @@ This is a data-driven project that uses statistical analysis, machine learning t
 
 ## Project Overview
 
-The **Premier League** stands as one of the globe's most illustrious football leagues, known for its competitive nature and intense matchups. The primary goal of this project is to develop a predictive model that uses different features of the teams to forecast the rate parameter that is used to model the goals scored by the home and away teams in a fixture and simulate those fixtures to factor in the randomness and uncertainty that are involved in football matches.
+The **Premier League** is widely regarded as one of the most famous football leagues in the world, famed for its fierce competition and spectacular matches. The primary goal of this project is to develop a predictive model that uses multiple team qualities to forecast the rate parameter. This metric is used to statistically reflect both the home and away teams' goals in a given match. Furthermore, the model seeks to simulate these encounters to take into consideration the intrinsic unpredictability and uncertainty that define football matches.
