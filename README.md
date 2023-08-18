@@ -34,3 +34,13 @@ Our predictive model employs a multi-step approach:
 
    Historical Premier League data is compiled from a variety of sources. Match statistics such as match fixtures, results, goals, shots, corners, cards received, and Bet365 probabilities are retrieved from https://www.football-data.co.uk/. Defensive ratings for teams are derived from WhoScored (https://www.whoscored.com/) and are available in the provided 'Defending_Prem.xlsx' file.
 
+
+2. **Feature Engineering:**
+
+   Key features are engineered, including team form, shot accuracy, defensive performance, chances created, and booking points. These features offer critical insights into team dynamics.
+We also check how these features affect the possibility of a team scoring goals.
+
+<img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with home goals.png">
+<img src="https://github.com/ACM40960/project-Usman0074/blob/main/Images/Correlation of features with away goals.png">
+
+
